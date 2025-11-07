@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-const EmptyState = ({ message = "لا توجد أفلام" }) => {
+const EmptyState = ({ message = "No Movies Found" }) => {
   return (
     <View style={styles.container}>
       <Image 
